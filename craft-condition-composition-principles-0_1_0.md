@@ -5,7 +5,7 @@
 **Status:** Architecture principle capture. Establishes how CRAFT conditions compose when addressing domain failure modes, and the decomposition logic required at the CRAFT-to-domain-application boundary.
 
 **Relevant files:**
-- `craft-specification-0_3_0.md`
+- `craft-specification-0_4_0.md`
 
 ---
 

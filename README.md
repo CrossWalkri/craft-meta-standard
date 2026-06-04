@@ -18,7 +18,7 @@ CROSS, the Common Reporting Outcome Standards Schema, is the first domain applic
 
 ## Documents in this repository
 
-- `craft-specification-0_3_0.md`: the meta-standard itself. Six conditions for a reliable evaluation chain, plus the construction grammar and inheritance requirements for building a conformant domain application.
+- `craft-specification-0_4_0.md`: the meta-standard itself. Six conditions for a reliable evaluation chain, plus the construction grammar and inheritance requirements for building a conformant domain application.
 - `craft-condition-composition-principles-0_1_0.md`: how the six conditions compose at the boundary between CRAFT and a domain application.
 
 ## License
