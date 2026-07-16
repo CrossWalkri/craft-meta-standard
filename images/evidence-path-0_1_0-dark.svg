@@ -20,7 +20,7 @@
 <text x="750" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#E6EDF3" opacity="0.75">inspected and refuted</text>
 <circle cx="1050" cy="150" r="46" fill="#161B22" stroke="#8FB3C7" stroke-width="1.5"/>
 <circle cx="1050" cy="150" r="6" fill="#E6EDF3"/>
-<text x="1050" y="80" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5" fill="#8FB3C7" font-weight="600">FINDING CONTRACT</text>
+<text x="1050" y="80" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5" fill="#8FB3C7" font-weight="600">FINDING</text>
 <text x="1050" y="232" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2" fill="#8B949E">THE CLAIM</text>
 <text x="1050" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#E6EDF3" opacity="0.75">refutation conditions,</text>
 <text x="1050" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#E6EDF3" opacity="0.75">contested regions, the</text>

@@ -16,12 +16,12 @@ CRAFT sits within a set of open, freely licensed standards, each building on the
 
 CROSS, the Common Reporting Outcome Standards Schema, is the first domain application built on CRAFT, the proof that the construction grammar produces a conformant standard and the example later applications follow; see the CROSS standard itself for its requirements.
 
-[ORE](https://github.com/CrossWalkri/ORE), Origin, Reliability, Exposure, is CRAFT's input-stage companion specification, a different class of document from a domain application. The CRAFT specification names the input stage as one failure class among several and solves the general case of the chain; ORE elaborates that named case: what a chain is allowed to assume about the sources feeding it, graded as uncertainty rather than judged as quality. ORE is not a CRAFT domain application and carries no inheritance receipt; it is a companion. A chain builder addresses the input-stage failure class CRAFT names by adopting ORE or by meeting equivalent declared obligations. Together with WALKRI at the field level and the suite's finding disciplines at the claim level, the family covers the evidence path end to end:
+[ORE](https://github.com/CrossWalkri/ORE), Origin, Reliability, Exposure, is CRAFT's input-stage companion specification, a different class of document from a domain application. The CRAFT specification names the input stage as one failure class among several and solves the general case of the chain; ORE elaborates that named case: what a chain is allowed to assume about the sources feeding it, graded as uncertainty rather than judged as quality. ORE is not a CRAFT domain application and carries no inheritance receipt; it is a companion. A chain builder addresses the input-stage failure class CRAFT names by adopting ORE or by meeting equivalent declared obligations. Together with WALKRI at the field level and the finding discipline at the claim level, the family covers the evidence path end to end:
 
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
-  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding contract binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
+  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
 </picture>
 </p> How CRAFT relates to the other open standards in the suite, and how they compose, is documented in the framework overview rather than here, so that the cross-standard relationships are maintained in one place.
 
