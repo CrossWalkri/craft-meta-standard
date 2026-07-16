@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" fill="none">
+<line x1="150" y1="150" x2="1050" y2="150" stroke="#863A34" stroke-width="2"/>
+<circle cx="150" cy="150" r="46" fill="#F6F8FA" stroke="#863A34" stroke-width="3"/>
+<circle cx="150" cy="150" r="6" fill="#24292F"/>
+<text x="150" y="80" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5" fill="#863A34" font-weight="600">ORE</text>
+<text x="150" y="232" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2" fill="#6E7781">THE SOURCE</text>
+<text x="150" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">how much of what feeds the</text>
+<text x="150" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">record can be seen</text>
+<circle cx="450" cy="150" r="46" fill="#F6F8FA" stroke="#3E5C6B" stroke-width="1.5"/>
+<circle cx="450" cy="150" r="6" fill="#24292F"/>
+<text x="450" y="80" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5" fill="#3E5C6B" font-weight="600">WALKRI</text>
+<text x="450" y="232" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2" fill="#6E7781">THE FIELD</text>
+<text x="450" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">would two readers collect</text>
+<text x="450" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">the same thing</text>
+<circle cx="750" cy="150" r="46" fill="#F6F8FA" stroke="#3E5C6B" stroke-width="1.5"/>
+<circle cx="750" cy="150" r="6" fill="#24292F"/>
+<text x="750" y="80" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5" fill="#3E5C6B" font-weight="600">CRAFT</text>
+<text x="750" y="232" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2" fill="#6E7781">THE CHAIN</text>
+<text x="750" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">can every stage be</text>
+<text x="750" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">inspected and refuted</text>
+<circle cx="1050" cy="150" r="46" fill="#F6F8FA" stroke="#3E5C6B" stroke-width="1.5"/>
+<circle cx="1050" cy="150" r="6" fill="#24292F"/>
+<text x="1050" y="80" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5" fill="#3E5C6B" font-weight="600">FINDING CONTRACT</text>
+<text x="1050" y="232" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2" fill="#6E7781">THE CLAIM</text>
+<text x="1050" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">refutation conditions,</text>
+<text x="1050" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">contested regions, the</text>
+<text x="1050" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#24292F" opacity="0.75">verdict handed back</text>
+</svg>

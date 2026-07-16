@@ -14,7 +14,16 @@ CRAFT is a meta-standard, which means its purpose is to let others build domain 
 
 CRAFT sits within a set of open, freely licensed standards, each building on the one beneath it. The Coordination Structural Integrity Suite specifies what must be structurally present for any evaluation or coordination structure to be sound, independent of domain. Frame Language is the shared vocabulary those standards use to distinguish structural grounding from aspiration. CRAFT builds on both to specify the conditions a domain-specific evaluation standard must meet. Each layer inherits from the one beneath it, and nothing in a higher layer is coherent without the layer below. All of them are free to use.
 
-CROSS, the Common Reporting Outcome Standards Schema, is the first domain application built on CRAFT, the proof that the construction grammar produces a conformant standard and the example later applications follow; see the CROSS standard itself for its requirements. How CRAFT relates to the other open standards in the suite, and how they compose, is documented in the framework overview rather than here, so that the cross-standard relationships are maintained in one place.
+CROSS, the Common Reporting Outcome Standards Schema, is the first domain application built on CRAFT, the proof that the construction grammar produces a conformant standard and the example later applications follow; see the CROSS standard itself for its requirements.
+
+[ORE](https://github.com/CrossWalkri/ORE), Origin, Reliability, Exposure, is CRAFT's input-stage companion specification, a different class of document from a domain application. The CRAFT specification names the input stage as one failure class among several and solves the general case of the chain; ORE elaborates that named case: what a chain is allowed to assume about the sources feeding it, graded as uncertainty rather than judged as quality. A CRAFT-conformant chain satisfies its input stage by adopting ORE or by meeting equivalent declared obligations. Together with WALKRI at the field level and the suite's finding disciplines at the claim level, the family covers the evidence path end to end:
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
+  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding contract binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
+</picture>
+</p> How CRAFT relates to the other open standards in the suite, and how they compose, is documented in the framework overview rather than here, so that the cross-standard relationships are maintained in one place.
 
 ## Documents in this repository
 
