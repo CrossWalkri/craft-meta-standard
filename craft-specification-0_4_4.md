@@ -1,7 +1,7 @@
 ---
 title: CRAFT Specification
-version: 0.4.3
-date: 2026-06-13
+version: 0.4.4
+date: 2026-07-18
 status: Working specification. Sections 10, 11, and 12 are now normatively specified; Section 12's three output schemas are specified in prose with pointer to external schema files. The runtime evaluation record schema is new in this version and has not yet been implemented in the reference tooling. Section 10's activity profile format is new and not yet implemented in tooling.
 framework: CRAFT (Chains Reveal Attested Falsifiable Truth)
 inherits-from: Coordination Structural Integrity Suite (CSIS) foundational commitments. Frame Language vocabulary discipline. Publication path for CSIS pending; see Section 10.
@@ -120,6 +120,8 @@ Seven structural elements must be specified at this stage and carried into every
 **Boundary population and frame specification.** The specification must name the boundary population: the set of entities within scope for the decision and the criteria that determine membership. It must also name the frame: the mechanism by which entities enter the evaluation.
 
 The relationship between the boundary population and the evaluated population is a distinct required declaration. Not every entity in the boundary population will necessarily be evaluated. The operator must state which entities were evaluated, which were not, and the basis for that selection.
+
+For a chain that ingests material it did not create, the frame declaration is completed by the ingestion boundary declaration required in Section 6.1: the mechanism by which entities enter the evaluation includes the terms on which their sources were admitted.
 
 A chain that evaluates a population that does not match the boundary population without documenting the divergence produces valid outputs for the wrong population. This is not an instrument failure or a criteria failure. The error originates at this stage, and a feedback mechanism that traces it no further back than the instruments cannot locate the source.
 
@@ -328,6 +330,8 @@ The structural grounding is the Structural Power Obligation Standard (SPOS) Sect
 A CRAFT-compliant evaluation chain requires, before any data collection or evaluation activity begins:
 
 **Published specification documents.** A specification document for each of the six conditions, versioned, dated, and publicly accessible. Each document must be derived from and traceable to the prior stage's specification. A specification document that cannot be traced to the decision context document does not satisfy this requirement.
+
+**Ingestion boundary declaration.** A chain that ingests material it did not create (feeds, databases, attestations, uploaded records) must declare how confidence in those sources is made a recorded, inspectable decision rather than a silent default. The declaration names the source-uncertainty obligations the chain operates under: what an admitted source's account must contain, how a property that cannot be assessed is recorded (a named state, never a silent default or an assumed middle value), and what each chain output exposes about the sources it rests on. These obligations are satisfied by adopting ORE, the companion specification at the ingestion boundary, or by declaring equivalent obligations with a documented equivalence argument, under the same discipline Section 8 applies to condition omission. A chain that ingests external material and carries no ingestion boundary declaration has left the input stage named in Section 2.2 outside its own conformance surface; the declaration is required for specification compliance under either realization. A chain that creates all of its own inputs declares that instead, and the declaration is complete.
 
 **Independent overturning basis.** The chain must secure the non-self-adjudication invariant (Section 7.2): the basis on which its output can be overturned is not controlled by the operating organization. This is realized either by ex-ante designated attestation, each specification document attested before data collection by a trusted interpretive intermediary independent of the operating organization, confirming internal consistency, derivability from the prior stage, non-vacuous criteria, and accurate risk-bearer identification; or by ex-post adversarial challenge resolved against the Condition 4 criteria by a resolver set the operating organization does not control, per Section 7.2.
 
@@ -709,6 +713,8 @@ Validation status as of 2026-05-28: the chain structure claim is supported by re
 ---
 
 ## Changelog
+
+v0.4.4 (2026-07-18): Ingestion boundary declaration added to Section 6.1: a chain that ingests material it did not create must declare the source-uncertainty obligations it operates under, satisfied by adopting ORE (the companion specification at the ingestion boundary) or by declaring equivalent obligations with a documented equivalence argument; a chain that creates all of its own inputs declares that instead. Condition 1's frame element gains a sentence connecting the frame declaration to this requirement. This closes a conformance gap the specification's own Section 2.2 names: without the declaration, a chain could be compliant while treating source confidence as a silent default. The requirement is deliberately realization-open, naming the obligation rather than mandating the instrument, consistent with the meta-standard level. The six conditions are unchanged in count; the multi-party attestation architecture remains deferred to v0.5.0.
 
 v0.4.3 (2026-06-13): Affected-party scale-trigger seam landed at the CRAFT layer, the held seam from v0.4.2 now that the Coordination Scaling Standard (v0.1.4) and the Structural Power Obligation Standard (v0.1.25) have settled, satisfying the Specification Inheritance Check. Condition 1 risk-bearer identification: above the Coordination Scaling Standard Section 10 affected-party reach ceiling, risk-bearer identification must route through the Structural Power Obligation Standard Section 4.1 proxy or guardian channel rather than impressionistic naming; the routing supplies legibility of the affected-party relationship, not knowledge of full exposure. Condition 6 direction-origin validation: above the reach ceiling, the affected-party directional origin must enter through the same channel rather than through the deploying organization's impression of it. Section 10 activity-profile trigger conditions and the Section 11 CSS-to-CRAFT direction extended to name the affected-party reach-ceiling crossing as a foregrounding trigger, the chain-level firing of the CSS and SPOS activity profiles in the inheritance receipt. The six conditions are unchanged in count; no other normative content changed.
 

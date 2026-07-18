@@ -16,7 +16,7 @@ CRAFT sits within a set of open, freely licensed standards, each building on the
 
 CROSS, the Common Reporting Outcome Standards Schema, is the first domain application built on CRAFT, the proof that the construction grammar produces a conformant standard and the example later applications follow; see the CROSS standard itself for its requirements.
 
-[ORE](https://github.com/CrossWalkri/ORE), Origin, Reliability, Exposure, is CRAFT's input-stage companion specification, a different class of document from a domain application. The CRAFT specification names the input stage as one failure class among several and solves the general case of the chain; ORE elaborates that named case: what a chain is allowed to assume about the sources feeding it, graded as uncertainty rather than judged as quality. ORE is not a CRAFT domain application and carries no inheritance receipt; it is a companion. A chain builder addresses the input-stage failure class CRAFT names by adopting ORE or by meeting equivalent declared obligations. Together with WALKRI at the field level and the finding discipline at the claim level, the family covers the evidence path end to end:
+[ORE](https://github.com/CrossWalkri/ORE), Origin, Reliability, Exposure, is CRAFT's input-stage companion specification, a different class of document from a domain application. The CRAFT specification names the input stage as one failure class among several and solves the general case of the chain; ORE elaborates that named case: what a chain is allowed to assume about the sources feeding it, graded as uncertainty rather than judged as quality. ORE is not a CRAFT domain application and carries no inheritance receipt; it is a companion. A chain builder addresses the input-stage failure class CRAFT names by adopting ORE or by meeting equivalent declared obligations; as of specification v0.4.4 this is a Section 6.1 compliance requirement, the ingestion boundary declaration. A condition-by-condition map of where ORE attaches to each of the six conditions is published in the ORE repository as `ore-craft-condition-map`. Together with WALKRI at the field level and the finding discipline at the claim level, the family covers the evidence path end to end:
 
 <p align="center">
 <picture>
@@ -27,7 +27,7 @@ CROSS, the Common Reporting Outcome Standards Schema, is the first domain applic
 
 ## Documents in this repository
 
-- `craft-specification-0_4_3.md`: the meta-standard itself. Six conditions for a reliable evaluation chain, plus the construction grammar and inheritance requirements for building a conformant domain application.
+- `craft-specification-0_4_4.md`: the meta-standard itself. Six conditions for a reliable evaluation chain, plus the construction grammar and inheritance requirements for building a conformant domain application.
 - `craft-condition-composition-principles-0_1_0.md`: how the six conditions compose at the boundary between CRAFT and a domain application.
 
 ## License
