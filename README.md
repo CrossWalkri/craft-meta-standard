@@ -30,6 +30,12 @@ CROSS, the Common Reporting Outcome Standards Schema, is the first domain applic
 - `craft-specification-0_4_4.md`: the meta-standard itself. Six conditions for a reliable evaluation chain, plus the construction grammar and inheritance requirements for building a conformant domain application.
 - `craft-condition-composition-principles-0_1_0.md`: how the six conditions compose at the boundary between CRAFT and a domain application.
 
+## Self-application disclosure
+
+CRAFT's Section 7.2 states an invariant: the basis on which a chain's output can be overturned must not be controlled by the party whose claim is being evaluated. Applied to this specification itself, that invariant does not currently hold, and this disclosure states so rather than leaving it silent. The specification is self-attested: no independent party has yet attested, on the record, that its conditions are falsifiable in substance rather than only in form. It has no external challenge history, and its first domain application (CROSS) was built in-house, so in-house use cannot serve as independent confirmation. In ORE's terms, CRAFT is presently a well-formed source whose confirmation architecture is single-party and trust-based, with no track record and an interested grader; that is a statement of uncertainty carried openly, not a verdict.
+
+Three repairs are in motion, in order of weight: an independent attestation is being sought from a qualified party with no stake in this work; challenges to any condition are open to anyone through this repository's issue tracker and will be resolved on the record; and track record accrues only as the specification operates in hands other than its author's and survives challenges its author did not design. This section will be revised as each lands, and its revision history is part of the record.
+
 ## License
 
 The specification documents in this repository are licensed under the Creative Commons Attribution 4.0 International License; see `LICENSE-SPEC`. Any code or software artifacts are licensed under the Apache License 2.0; see `LICENSE`. This matches the licensing of the Coordination Structural Integrity Suite.
