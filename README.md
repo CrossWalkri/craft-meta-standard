@@ -23,7 +23,11 @@ CROSS, the Common Reporting Outcome Standards Schema, is the first domain applic
   <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
   <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
 </picture>
-</p> How CRAFT relates to the other open standards in the suite, and how they compose, is documented in the framework overview rather than here, so that the cross-standard relationships are maintained in one place.
+</p>
+
+The through line, stated once: every system that turns records into decisions has the same anatomy. Sources feed in material the system did not create, fields capture that material as data, and a chain of evaluation carries it to a claim someone acts on. Knowing begins honestly, or begins broken, in three places, and one standard stands at each: [ORE](https://github.com/CrossWalkri/ORE) at the source boundary, [WALKRI](https://github.com/CrossWalkri/WALKRI) at the field, CRAFT over the whole path. One commitment runs through all three: no silent trust anywhere, and the worth-judgment left visible in the hands, human or automated, that make it. Each is independently adoptable; the through line is what they hold together.
+
+How CRAFT relates to the other open standards in the suite, and how they compose, is documented in the framework overview rather than here, so that the cross-standard relationships are maintained in one place.
 
 ## Documents in this repository
 
