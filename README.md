@@ -34,6 +34,8 @@ How CRAFT relates to the other open standards in the suite, and how they compose
 
 - `craft-specification-0_4_4.md`: the meta-standard itself. Six conditions for a reliable evaluation chain, plus the construction grammar and inheritance requirements for building a conformant domain application.
 - `craft-condition-composition-principles-0_1_0.md`: how the six conditions compose at the boundary between CRAFT and a domain application.
+- `machine-readable/`: the generated conformance layer. A JSON Schema, Zod, and semantic-tier set generated from one LinkML source, modeling CRAFT's three Section 12 outputs (the evaluation record as the schema root, with the inheritance receipt and compliance report as companion classes), plus a per-obligation verdict. See `machine-readable/README.md`.
+- `claude-skills/claude-skill-CRAFT-0_1_0.md`: a procedural encoding of the six conditions, the construction grammar, and the inheritance receipt for AI-assisted specification and audit.
 
 ## Self-application disclosure
 
