@@ -43,6 +43,10 @@ CRAFT's Section 7.2 states an invariant: the basis on which a chain's output can
 
 Three repairs are in motion, in order of weight: an independent attestation is being sought from a qualified party with no stake in this work; challenges to any condition are open to anyone through this repository's issue tracker and will be resolved on the record; and track record accrues only as the specification operates in hands other than its author's and survives challenges its author did not design. This section will be revised as each lands, and its revision history is part of the record.
 
+## Machine-readable layer
+
+This standard ships a machine-readable fetch surface (a JSON Schema, a typed register of its provisions, and conformant and non-conformant examples) for a consumer that ingests it as data rather than reading the prose. It lives as one source in [Polymathie-Studio/tools](https://github.com/Polymathie-Studio/tools): source under `machine-readable/craft/craft/`, the generated schema under `schema/craft/craft/`, indexed by the [CRAFT family manifest](https://raw.githubusercontent.com/Polymathie-Studio/tools/main/schema/craft/craft-manifest.json). This standard's schema: https://raw.githubusercontent.com/Polymathie-Studio/tools/main/schema/craft/craft/craft.schema.json
+
 ## License
 
 The specification documents in this repository are licensed under the Creative Commons Attribution 4.0 International License; see `LICENSE-SPEC`. Any code or software artifacts are licensed under the Apache License 2.0; see `LICENSE`. This matches the licensing of the Coordination Structural Integrity Suite.
